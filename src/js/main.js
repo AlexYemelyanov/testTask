@@ -25,20 +25,17 @@ radioButtons.forEach((radio) => {
 					window.location.href = 'https://google.com/';
 				});
 			}
-			// Здесь можно выполнить действия, связанные с выбранной радио-кнопкой
 		}
 	});
 });
 
 function changeLanguage() {
 	const urlParams = new URLSearchParams(window.location.search);
-	const language = urlParams.get('lang') || 'en'; // Язык по умолчанию 'en' (английский)
+	const language = urlParams.get('lang') || 'en';
 
-	// Загрузка языковых данных (пример)
-	fetch(`/i18n/${language}.json`)
+	fetch(`./i18n/${language}.json`)
 		.then((response) => response.json())
 		.then((i18n) => {
-			// Обновление текста на странице
 			document.getElementById('use').innerHTML = i18n[`Terms of Use`];
 			document.getElementById('privacy').innerHTML = i18n[`Privacy Policy`];
 			document.getElementById('restore').innerHTML = i18n[`Restore`];
@@ -61,7 +58,6 @@ function changeLanguage() {
 			document.getElementById('perWeek').innerHTML =
 				i18n[`{{price}} <br>per week`];
 
-			// Обновление URL (необязательно)
 			const newUrl = new URL(window.location);
 			newUrl.searchParams.set('lang', language);
 			history.pushState({}, '', newUrl);
