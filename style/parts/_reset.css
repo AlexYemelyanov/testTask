@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:before {
+  box-sizing: border-box;
+}
+
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  font-family: 'SF Pro Display',
+    sans-serif;
+  min-width: 375px;
+  height: auto;
+  background-color: #090A1A;
+  color: #fff;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  outline: none !important;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+input {
+  font-style: inherit;
+  font-family: inherit;
+}

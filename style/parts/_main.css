@@ -1,0 +1,14 @@
+body {
+  width: 375px;
+  height: 100%;
+  background-image: url('../../img/main_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

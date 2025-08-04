@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 620px;
+}
+
+.navigation__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__item a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}

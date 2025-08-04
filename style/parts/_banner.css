@@ -1,0 +1,41 @@
+.modal__body-banner {
+  display: flex;
+  width: 345px;
+  height: 139px;
+}
+
+.banner__item {
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 33.3%;
+  margin-left: 4px;
+  text-align: start;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner__item>p {
+  margin-bottom: 15px;
+}
+
+.art {
+  background-image: url(../../img/art.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.styles {
+  background-image: url(../../img/styles.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.magic {
+  background-image: url(../../img/magic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

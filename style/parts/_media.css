@@ -1,0 +1,46 @@
+@media (max-width:375px) {
+  .phoneIco__iPhone12 {
+    display: none;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (min-width:380px) and (max-width:390px) {
+  body {
+    width: 390px;
+  }
+
+  .footer {
+    margin-top: 745px;
+  }
+
+  .phoneIco__iPhone8 {
+    display: none;
+  }
+
+  .phoneIco__iPhone12 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 27px;
+  }
+
+  .divider {
+    display: block;
+    height: 5px;
+    width: 134px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+  }
+
+  .modal__window-close {
+    top: -145px;
+    left: 3%;
+  }
+}

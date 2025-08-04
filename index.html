@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="main">
+    <section class="phoneIco__iPhone8">
+      <div class="phoneIco__left">
+        <div class="phoneIco__left-item">
+          <img src="./img/mobile.svg" alt="network">
+          <p>Sketch</p>
+        </div>
+        <div class="phoneIco__left-item">
+          <img src="./img/wifi.svg" alt="wifi">
+        </div>
+      </div>
+      <div class="phoneIco__center">
+        <div class="phoneIco__center-time">
+          <p class="time">9:18 AM</p>
+        </div>
+      </div>
+      <div class="phoneIco__right">
+        <div class="phoneIco__right-item">
+          <img src="./img/bluetooth.svg" alt="bluetooth">
+        </div>
+
+        <div class="phoneIco__right-item">
+          <p>100%</p>
+          <img src="./img/battery.svg" alt="battery">
+        </div>
+      </div>
+    </section>
+    <section class="phoneIco__iPhone12">
+      <div class="phoneIco__left">
+        <p class="time">9:18 AM</p>
+      </div>
+      <div class="phoneIco__right">
+        <div class="phone__right-item">
+          <img src="./img/mobile.svg" alt="network">
+        </div>
+        <div class="phone__right-item">
+          <img src="./img/wifi.svg" alt="wifi">
+        </div>
+        <div class="phone__right-item">
+          <img src="./img/battery.svg" alt="battery">
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <nav class="navigation">
+        <ul class="navigation__items">
+          <li class="navigation__item black"><a href="#" id="use">Terms of Use</a></li>
+          <li class="navigation__item black"><a href="#" id="privacy">Privacy Policy</a></li>
+          <li class="navigation__item black"><a href="#" id="restore">Restore</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="divider"></div>
+  </main>
+  <div class="modal open">
+    <div class="modal__window">
+      <h2 class="modal__window-title" id="title">Get Unlimited
+        Access</h2>
+      <button class="modal__window-close"><span class="eva--close-outline"></span></button>
+      <div class="modal__body">
+        <div class="modal__body-banner">
+          <div class="banner__item art" id="art">
+            <p>Unlimited Art Creation</p>
+          </div>
+          <div class="banner__item styles" id="styles">
+            <p>Exclusive <br> Styles</p>
+          </div>
+          <div class="banner__item magic" id="magic">
+            <p>Magic Avatars <br> With 20% Off</p>
+          </div>
+        </div>
+        <div class="modal__body-radio">
+          <form id="chooseOffer" action="#">
+            <label class="radioYearly">
+              <input class="radio__input" type="radio" id="yearlyRadio" name="offers" data-href="https://apple.com/">
+              <div class="radio__new-yearly" aria-hidden="true">
+                <div class="radio__new-offer" id="best">best offer</div>
+                <div class="radio__new-title">
+                  <h2 id="yearly">Yearly access</h2>
+                  <p id="perYear">Just $39.99 per year</p>
+                </div>
+                <div class="radio__new-price">
+                  <p id="perWeekYear">$0.48 per week</p>
+                </div>
+
+              </div>
+            </label>
+            <label class="radioWeekly">
+              <input class="radio__input weekly" type="radio" id="weeklyRadio" name="offers"
+                data-href="https://google.com/">
+              <div class="radio__new-weekly" aria-hidden="true">
+                <div class="radio__new-title">
+                  <h2 id="weekly">Weekly access</h2>
+                </div>
+                <div class="radio__new-price">
+                  <p id="perWeek">$6.99 per week</p>
+                </div>
+              </div>
+            </label>
+        </div>
+        <div class="modal__body-btn">
+          <button href="#" class="btn btn--rounded" id="continue"> Continue </button>
+        </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal__overlay"></div>
+  </div>
+
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
